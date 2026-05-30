@@ -1,9 +1,9 @@
 // src/api/base.api.ts
 import { useAuthStore } from "@/store/useAuthStore";
 import axios from "axios";
+const VITE_API_BASE_URL = "https://revamp-backend-mbyj.onrender.com/api/v1";
 
-const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+const BASE_URL = VITE_API_BASE_URL || "http://localhost:8000/api/v1";
 
 export const BASE_API = axios.create({
   baseURL: BASE_URL,
