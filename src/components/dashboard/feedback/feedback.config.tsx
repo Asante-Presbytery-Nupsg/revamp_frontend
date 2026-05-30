@@ -32,6 +32,10 @@ const CATEGORY_LABELS: Record<FeedbackCategory, string> = {
   programme: "Programme",
   facilities: "Facilities",
   suggestion: "Suggestion",
+  attendance: "Attendance",
+  engagement: "Engagement",
+  spiritual_growth: "Spiritual Growth",
+  conduct: "Conduct",
 };
 
 const STATUS_OPTIONS: FeedbackStatus[] = ["received", "reviewed", "actioned"];

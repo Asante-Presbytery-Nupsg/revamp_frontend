@@ -9,6 +9,10 @@ export type FeedbackCategory =
   | "events"
   | "programme"
   | "facilities"
+  | "attendance"
+  | "engagement"
+  | "spiritual_growth"
+  | "conduct"
   | "suggestion";
 
 export type FeedbackStatus = "received" | "reviewed" | "actioned";

@@ -29,5 +29,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "../asante-backend/src/controllers/activity.controller.ts", "../asante-backend/src/controllers/activity.routes.ts", "../asante-backend/src/controllers/activity.service.ts"]
+  "include": ["src"]
 }

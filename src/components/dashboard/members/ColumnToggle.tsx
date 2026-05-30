@@ -13,7 +13,7 @@ import {
   useInteractions,
   FloatingPortal,
 } from "@floating-ui/react";
-import type { Member } from "@/dashboard/admin/Members";
+import type { Member } from "@/api/members.api";
 
 // ─── Component ────────────────────────────────────────────────────────────────
 

@@ -16,6 +16,10 @@ const CATEGORY_OPTIONS: FeedbackCategory[] = [
   "shepherd",
   "events",
   "programme",
+  "attendance",
+  "engagement",
+  "spiritual_growth",
+  "conduct",
   "facilities",
   "suggestion",
 ];
@@ -25,6 +29,10 @@ const CATEGORY_LABELS: Record<FeedbackCategory, string> = {
   shepherd: "Shepherd",
   events: "Events",
   programme: "Programme",
+  attendance: "Attendance",
+  engagement: "Engagement",
+  spiritual_growth: "Spiritual Growth",
+  conduct: "Conduct",
   facilities: "Facilities",
   suggestion: "Suggestion",
 };
@@ -34,6 +42,10 @@ const CATEGORY_COLORS: Record<FeedbackCategory, string> = {
   shepherd: "#185FA5",
   events: "#2B7FD4",
   programme: "#10b981",
+  attendance: "#8b5cf6",
+  engagement: "#f59e0b",
+  spiritual_growth: "#10b981",
+  conduct: "#ef4444",
   facilities: "#f59e0b",
   suggestion: "#8b5cf6",
 };
