@@ -17,8 +17,8 @@ export default defineConfig({
   },
 
   build: {
-    outDir: "../asante-backend/public",
-    // outDir: "dist",
+    // outDir: "../asante-backend/public",
+    outDir: "dist",
     emptyOutDir: true,
     chunkSizeWarningLimit: 600,
     rollupOptions: {
